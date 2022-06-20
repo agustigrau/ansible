@@ -1,0 +1,4 @@
+ name: Restart Spooler service
+  ansible.windows.win_service:
+    name: spooler
+    state: restarted
